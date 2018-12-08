@@ -97,6 +97,8 @@ while change > tolx && loop < maxloop
 end
 %clf; 
 display_3D(xPhys);
+   %%%%Forces Test
+       Fs = KE*U;
 end
 
 
@@ -171,6 +173,8 @@ for k = 1:nelz
 end
 axis equal; axis tight; axis off; box on; view([30,30]); pause(1e-6);
 end
+
+
 % =========================================================================
 % === This code was written by K Liu and A Tovar, Dept. of Mechanical   ===
 % === Engineering, Indiana University-Purdue University Indianapolis,   ===
